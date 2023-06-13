@@ -49,14 +49,11 @@ nav ul li a:visited {
 }
 
 #me {
-  padding-left: 10px;
-  margin: 20px 30px 0 0;
+  margin-right: 30px;
   width: 200px;
   object-fit: contain;
-  align-self: flex-end;  
   border-radius: 50%;
   border: 1px solid white;
-
 }
 
 .about-container {
@@ -69,8 +66,8 @@ nav ul li a:visited {
 .about-text-container {
   flex: 1 1 auto;
   width: 50%;
+  margin-right: 30px;
 }
-
 
 .projects-section {
 display: grid;
@@ -182,33 +179,43 @@ color: #6c069f;
 }
 
 footer {
-  position: fixed;
-  background-color: black;
-  padding: 10px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  font-size: 14px;
-  z-index: 2;
+  background-color: #f5f5f5;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .footer-left {
   display: flex;
+  padding-left: 2%;
   align-items: center;
 }
 
+.footer-left p {
+  margin-right: 10px;
+}
+
 .made-by {
-  text-align: center;
-  flex-grow: 1;
+  font-size: 14px;
+  color: #666;
+  opacity: 0.7;
+  margin: 2%;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
 }
 
 .switch {
   margin-left: 10px;
 }
-
 
 
 /* Desktop Styles */
@@ -226,11 +233,12 @@ footer {
 /* Mobile Styles */
 @media screen and (max-width: 715px) {
   html {
-    margin-left: 5%;
+    margin: 0;
   }
 
   h1 {
     font-size: 22px;
+    margin-left: -5%;
   }
 
   nav ul li a {
@@ -245,6 +253,8 @@ footer {
     height: 40px;
     width: auto;
   }
+
+
 }
 
 /* styling for light dark */
