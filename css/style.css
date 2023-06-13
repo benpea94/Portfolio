@@ -1,14 +1,10 @@
-html {
-background-color: ivory;
-color: black;
-height: 100%;
-margin-left: 10%;
-margin-right: 10%;
-}
-
 body {
-  font-family: 'Poppins', sans-serif;   
-}
+  font-family: 'Poppins', sans-serif;
+  background-color: ivory;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;   
+  }
 
 main {
   margin-top: 50px;
@@ -216,4 +212,149 @@ color: #6c069f;
     height: 40px;
     width: auto;
   }
+}
+
+footer {
+  margin-top: 5%;
+}
+
+/* styling for light dark */
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: darkgray;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px darkgray;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* Light Mode Styles */
+
+
+footer {
+  color: black;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: black;
+  color: ivory;
+  
+}
+
+body.dark-mode footer {
+  color: ivory;
+}
+
+body.dark-mode header {
+  background-color: black;
+}
+
+body.dark-mode nav ul li a {
+  color: ivory;
+}
+
+body.dark-mode nav ul li a:hover {
+  color: ivory;
+}
+
+body.dark-mode #me{
+  border: none;
+}
+
+body.dark-mode .project {
+  background-color: rgb(22, 21, 21);
+  color: ivory;
+  box-shadow: 2px 2px 4px ivory;
+}
+
+body.dark-mode .project h3 {
+  color: ivory;
+}
+
+body.dark-mode .project a {
+  color: ivory;
+}
+
+body.dark-mode .project-tech {
+  color: rgb(233, 161, 27);
+}
+
+body.dark-mode .skills-section img{
+  background-color: ivory;
+}
+
+body.dark-mode .text-overlay p {
+  color: ivory;
+}
+
+body.dark-mode .switch {
+  background-color: #aaa;
+}
+
+body.dark-mode .slider {
+  background-color: ivory;
+}
+
+body.dark-mode .slider:before {
+  background-color: #333;
+}
+
+body.dark-mode .image-container2 img {
+  background-color: ivory;
 }
