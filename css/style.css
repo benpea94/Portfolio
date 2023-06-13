@@ -138,6 +138,7 @@ color: #6c069f;
 .image-container img {
   height: 70px;
   width: 70px;
+  padding: 1%;
 }
 
 .image-container:hover img {
