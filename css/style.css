@@ -263,7 +263,7 @@ footer {
 .switch {
   position: relative;
   display: inline-block;
-  width: 30px;
+  width: 45px;
   height: 17px;
 }
 
@@ -294,7 +294,7 @@ footer {
   width: 12px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: ivory;
   -webkit-transition: .4s;
   transition: .4s;
 }
