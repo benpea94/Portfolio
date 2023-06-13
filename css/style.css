@@ -300,7 +300,7 @@ footer {
 }
 
 input:checked + .slider {
-  background-color: darkgray;
+  background-color: black;
 }
 
 input:focus + .slider {
@@ -374,7 +374,7 @@ body.dark-mode .text-overlay p {
 }
 
 body.dark-mode .switch {
-  background-color: #aaa;
+  background-color: black;
 }
 
 body.dark-mode .slider {
@@ -382,7 +382,7 @@ body.dark-mode .slider {
 }
 
 body.dark-mode .slider:before {
-  background-color: #333;
+  background-color: #000000;
 }
 
 body.dark-mode .image-container2 img {
